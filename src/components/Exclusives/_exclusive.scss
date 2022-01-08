@@ -1,0 +1,9 @@
+.exclusives {
+  background-color: $main-color;
+  @include flex-center;
+  flex-direction: column;
+  .top {
+    width: 90vw;
+    color: white;
+  }
+}

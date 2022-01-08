@@ -1,0 +1,30 @@
+.login {
+  .topLogin {
+    @include flex-center($justify: space-around);
+    width: 100vw;
+    height: 10vh;
+    background-color: $main-color;
+    color: $color-white;
+    h3 {
+      font-size: 6vw;
+      padding-top: 1vh;
+      color: $gradient;
+    }
+  }
+
+  .loginField {
+    @include flex-center;
+    flex-direction: column;
+    .facebook {
+      width: 80vw;
+      padding: 2vh 0;
+      background-color: blue;
+      text-align: center;
+      color: white;
+      margin: 5vw 0;
+    }
+    p {
+      width: 75vw;
+    }
+  }
+}

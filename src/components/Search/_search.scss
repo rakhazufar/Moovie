@@ -1,0 +1,35 @@
+.search {
+  background-color: $main-color;
+  color: white;
+  @include flex-center($justify: flex-start, $align: flex-end);
+  flex-direction: column;
+  padding: 2vh 2vh 0 0;
+  .searchInput {
+    @include flex-center($align: flex-start);
+    width: 100vw;
+    .searchButton {
+      margin-top: 20px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.closeSearch {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.textfield_label {
+  color: $gradient !important;
+}
+.textfield_input {
+  color: white !important;
+  border-bottom: 2px solid white !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  border-bottom: 2px solid white !important;
+  z-index: 1;
+}

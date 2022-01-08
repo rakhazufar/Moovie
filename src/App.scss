@@ -1,0 +1,18 @@
+@import "./assets/color";
+@import "./components/navbar/navbar";
+@import "./components/vanue/vanue";
+@import "./components/slider/slider";
+@import "./components/topMovie/topMovie";
+@import "./components/Exclusives/exclusive";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+@import "./components/movieCard/movieCard";
+@import "./components/Search/search";
+@import "./components/Login/login";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}

@@ -1,0 +1,28 @@
+@import "../../assets/color";
+
+.vanue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  padding: 0 3vw;
+  background-color: $main-color;
+
+  .choose-vanue {
+    select {
+      font-size: 1.1rem;
+      color: $color-white;
+      background-color: $main-color;
+      border: none;
+      outline: none;
+      option {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  a {
+    font-size: 1.1rem;
+    color: $color-white;
+  }
+}
